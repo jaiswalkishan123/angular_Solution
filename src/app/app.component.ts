@@ -9,7 +9,7 @@ import { Router,Routes, RouterModule } from '@angular/router';
 })
 export class AppComponent {
   title = 'login';
-  userModel=new User('','');
+  userModel=new User('test@gmail.com','test');
   submitted=false;
 
   constructor(private _validationService:ValidationService,
@@ -25,7 +25,7 @@ this.submitted=true;
           this.router.navigate(['/question']);
         }
       else {
-        this.router.navigate(['/error']);
+      this.router.navigate(['/error'])
       }
       },
 

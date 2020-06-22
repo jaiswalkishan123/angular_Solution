@@ -6,11 +6,21 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { QuestionComponent } from './question/question.component';
 import { ErrorComponent } from './error/error.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { RightBoxComponent } from './right-box/right-box.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     QuestionComponent,
     ErrorComponent,
+    NavbarComponent,
+    SidenavComponent,
+    RightBoxComponent,
+
+
+
 
   ],
   imports: [

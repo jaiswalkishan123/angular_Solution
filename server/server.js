@@ -12,7 +12,7 @@ res.send("connected to server");
 app.post("/login",function(req,res){
   const email="test@gmail.com";
   const password="test";
-  res.send({email:req.body.email,password:req.body.password});
+  res.send({email:email,password:password});
 });
 
 
